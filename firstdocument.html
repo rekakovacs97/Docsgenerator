@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Document generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="print.css">
+    <link rel="stylesheet" href="firstdocument.css">
+    <link rel="stylesheet" href="seconddocument.html">
+    <link rel="stylesheet" href="tableDB.html">
+</head>
+
+<body>
+    <header class="dont-print">
+        <div class="container">
+            <div id="header">
+                <a href="https://www.gov.ro/" target="_blank"><img src="Images/steag.jpeg" alt="tricolor"
+                        width="100%"></a>
+            </div>
+            <div id="header2">
+                <div id="firstboxheader" class="dont-print">
+                    <h1>Document generator</h1>
+                </div>
+                <div class="subheader">
+                    <ul class="navbar" class="dont-print">
+                        <li> <a href="index.html">Home</a></li>
+                        <li> <a href="firstdocument.html">Cerere de înmatriculare</a></li>
+                        <li> <a href="seconddocument.html">Cerere de primărie</a></li>
+                        <li> <a href="tableDB.html">Tabel Baza de Date</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="content">
+        <div id="side-menu" class="dont-print">
+            <div id="persoana">
+                <p>Introduceti CNP</p>
+
+                <input type="text" name="codNumeric" id="search" maxlength="13" placeholder="Cod numeric personal">
+
+                <button id="submit-button">OK</button>
+            </div>
+        </div>
+        <div id="main">
+            <div id="home" class="page">
+                <h2>Cerere de înnmatriculare</h2>
+
+                <p>1. Subsemnatul (Subscrisă) prenume <input type="text" name="firstName"> nume <input type="text"
+                        name="lastName"> C.N.P. (C.U.I) <input type="text" name="cnp"> cu domiciliul /
+                    șediul în localitatea <input type="text" name="localitate"> strada <input type="text" name="strada">
+                    nr.
+                    <input type="text" name="numar"> bl. <input type="text"> sc. <input type="text"> et. <input
+                        type="text"> ap.
+                    <input type="text"> sectorul/județul <input type="text"> e-mail* <input type="text" name="email">
+                    tel.*
+                    <input type="text" name="telefon"> solicit:
+                </p>
+                <ul class="ullinks">
+                    <li><input type="checkbox"> înnmatriculare</li>
+                    <li><input type="checkbox"> înmatricularea temporară</li>
+                    <li><input type="checkbox"> transcrierea transmiterii dreptului de proprietate</li>
+                    <li><input type="checkbox"> eliberarea unui duplicat al certificatului de înmatriculare</li>
+                    <li><input type="checkbox"> eliberarea unui nou certificat ca urmare a modificării datelor înscrise
+                    </li>
+                    <li><input type="checkbox"> radierea</li>
+                    <li><input type="checkbox"> autorizarea provizorie pentru o perioadă de <input type="text"> zile
+                    </li>
+                    <li><input type="checkbox"> duplicat placă nr. înmatriculare/placă suplimentară <input
+                            type="text">buc</li>
+                    <li><input type="checkbox"> păstrarea combinației numărului de înmatriculare.</li>
+                </ul>
+
+                <p>a vehicului marca <input type="text"> tip <input type="text"> număr de identificare
+                    <input type="text">, an fabricație <input type="text"> numărul de înmatriculare <input type="text">
+                    dobandit la data de <input type="text"> prin(cumpărare, donatie, moțtenire, schimb, alt mod)
+                    <input type="text"> de la <input type="text">.
+                </p>
+
+                <p>2. Se completează doar în cazul înscrierii în certificatul de înmatriculare şi a altei persoane care
+                    poate folosi vehiculul în virtutea unui drept legal, altul decât cel de proprietate: <br>
+                    Nume, prenume / denumire <input type="text"> <br>
+                    C.N.P.(C.U.I) <input type="text">
+                </p>
+
+                <p>
+                    * Am luat cunoștință că adresa e-mail și numărul de telefon sunt opționale, iar în măsura
+                    în care sunt furnizate, sunt de acord cu prelucrarea acestora în vederea comunicării
+                    oricăror informații de interes cu privire la operațiunea solicitată sau vehiculul care face
+                    obiectul acesteia. <br> Am luat cunoştinţă de conţinutul Notei de Informare. <br>
+                    Data <input type="date"> Semnătură <input type="text"></p>
+                <br>
+
+                <button class="dont-print" id="print-button">Print</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="footer" class="dont-print">
+            <p class="stylefooter">Created with the help of
+                <a href="https://fasttrackit.org/" target="_blank"><em>FastTrackIT</em></a>
+            </p>
+            <p class="stylefooter">I hope this app helped you</p>
+        </div>
+    </footer>
+
+    <script src="functions.js"></script>
+</body>
+
+</html>

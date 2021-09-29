@@ -1,0 +1,35 @@
+[
+    {
+        "id": "a123",
+        "cnp": "1870109260036",
+        "firstName": "Cristian",
+        "lastName": "Cozma",
+        "localitate": "Ploiesti",
+        "strada": "Revoltiei",
+        "numar": 1158,
+        "email": "test@gmail.com",
+        "telefon": "0642738492"
+    },
+    {
+        "id": "b456",
+        "cnp": "2901112265544",
+        "firstName": "Reka",
+        "lastName": "Kovacs",
+        "localitate": "Braila",
+        "strada": "Recoltei",
+        "numar": 1123,
+        "email": "test@gmail.com",
+        "telefon": "0642738492"
+    },
+    {
+        "id": "c789",
+        "cnp": "29001212254433",
+        "firstName": "Simona",
+        "lastName": "Glodean",
+        "localitate": "Oradea",
+        "strada": "Unirii",
+        "numar": 1199,
+        "email": "test@gmail.com",
+        "telefon": "0642738492"
+    }
+]

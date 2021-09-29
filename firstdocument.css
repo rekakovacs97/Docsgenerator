@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+#side-menu {
+    background-color: #ffffff;
+    margin: 21px 0;
+    padding: 24px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    color: #334455;
+    height: 15%;
+    opacity: 0.95;
+    flex: 1; 
+}
+
+#cnp,
+#vin {
+    margin: 3px;
+    border-radius: 5px;
+}
+
+#print-button {
+    padding: 3px; 
+    margin-bottom: 10px;
+    margin-left: 50%;
+} 
+
+.ullinks {
+    list-style-type: none;
+}
+
+input {
+    margin: 5px 0 5px 0;
+    color: black;
+}
+
+p {
+    text-align: justify;
+}
+
+.page {
+    background-color: #ffffff;
+    margin: 16px 0;
+    padding: 24px 24px 50px 24px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    opacity: 0.95;
+    text-align: justify;
+    font-size: 17px;
+  }
+
+.stylefooter{
+    text-align: center;
+    color: white;
+}
